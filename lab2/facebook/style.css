@@ -1,0 +1,149 @@
+* {
+  margin-top: 100px;
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+}
+body {
+  background-color: #f2f4f7;
+}
+.info {
+  position: absolute;
+}
+.info h1 {
+  margin-top: 70px;
+  margin-left: 320px;
+  color: rgb(20, 116, 240);
+  font-size: 60px;
+}
+.info p {
+  margin-top: 10px;
+  margin-left: 320px;
+  line-height: 28px;
+  width: auto;
+  font-size: 24px;
+}
+.in {
+  height: 350px;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  width: 396px;
+  margin-top: 100px;
+  margin-left: 850px;
+}
+.in p {
+  margin: 28px 0px 0px;
+  width: 396px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.foot {
+  margin-top: 300px;
+}
+.in input {
+  font-size: 15px;
+  padding: 8px 16px;
+  width: 360px;
+
+  margin-top: 8px;
+  margin-left: 20px;
+  height: 48px;
+  border: 1px solid #dddfe2;
+  color: #1d2129;
+  border-radius: 5px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.enter {
+  margin-top: 15px;
+  width: 364px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  height: 48px;
+  background-color: #0866ff;
+  color: white;
+  font-weight: 600;
+  line-height: 48px;
+  font-size: 20px;
+  border-radius: 6px;
+  border: #0866ff;
+  margin-bottom: 10px;
+}
+.in a {
+  margin-left: 150px;
+  font-size: 14px;
+  color: #0866ff;
+  text-decoration: none;
+}
+.in a:hover {
+  text-decoration: underline;
+}
+
+.in hr {
+  width: 364px;
+  height: 0.4px;
+  margin: 25px 16px;
+}
+.last {
+  width: 230px;
+  height: 48px;
+  margin-left: 90px;
+  background-color: #42b72a;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 10px;
+  border: #42b72a;
+  margin-bottom: 20px;
+}
+.last:hover {
+  background-color: #238d0e;
+}
+
+.foot {
+  background: #fff;
+  color: #1c1e21;
+  direction: ltr;
+  line-height: 1.34;
+
+  height: 205px;
+  padding: 20px 0px 0px;
+  display: block;
+}
+.foot a,
+.foot p,
+.foot hr {
+  color: #8a8d91;
+  font-size: 12px;
+  text-decoration: none;
+  margin-top: 22px;
+  margin-left: 300px;
+  word-spacing: 10px;
+}
+.foot button {
+  background-color: #f5f6f7;
+  border-color: #ccd0d5;
+  width: 30px;
+  height: 20px;
+  padding: 0px 8px;
+  font-weight: 700;
+}
+.foot hr {
+  width: 900px;
+}
+.second {
+  width: 920px;
+  height: 76px;
+  display: inline-block;
+  max-width: 80%;
+}
