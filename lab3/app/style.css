@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  background: #333;
+  padding: 15px 0px;
+  text-align: left;
+  color: gray;
+  font-size: 18px;
+  font-weight: bold;
+}
+.nav-bar {
+  margin-left: 50px;
+}
+.container {
+  padding: 20px;
+  margin-top: 70px;
+  width: 600px;
+}
+
+h2 {
+  text-align: left;
+  margin-left: -30px;
+  font-weight: 500;
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.input-section button:hover {
+  background: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-left: -30px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background: white;
+  width: 650px;
+}
+li input[type="checkbox"] {
+  margin-left: -150px;
+}
+.task-text {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
