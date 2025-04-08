@@ -1,0 +1,11 @@
+<div>
+  <h2>Список вакансий</h2>
+  <ul>
+    <li *ngFor="let vacancy of vacancies">
+      <h3>{{ vacancy.title }}</h3>
+      <p>{{ vacancy.description }}</p>
+      <p>Зарплата: {{ vacancy.salary_range }}</p>
+      <p>Требования: {{ vacancy.requirements }}</p>
+    </li>
+  </ul>
+</div>
